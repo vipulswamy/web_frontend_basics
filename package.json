@@ -1,0 +1,27 @@
+{
+  "name": "web_frontend_basics",
+  "version": "1.0.0",
+  "description": "student frontend project module 3 before MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipulswamy/web_frontend_basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vipulswamy/web_frontend_basics/issues"
+  },
+  "homepage": "https://github.com/vipulswamy/web_frontend_basics#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
